@@ -1,0 +1,8 @@
+module add1(
+	input a,b,c,
+	output s,co
+);
+assign s=c^(a^b);
+assign co=((a^b)&c)|(a&b);
+
+endmodule
